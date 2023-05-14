@@ -1,0 +1,22 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{C1E30811-450C-321A-2CB6-83AA56255162}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "GRBActionRPG",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "ModelingToolsEditorMode",
+			"Enabled": true,
+			"TargetAllowList": [
+				"Editor"
+			]
+		}
+	]
+}
