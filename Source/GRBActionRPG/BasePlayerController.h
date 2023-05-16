@@ -24,6 +24,16 @@ protected:
 	UFUNCTION()
 		void MoveRight(float Value);
 
+	UFUNCTION()
+		void TouchStarted(ETouchIndex::Type FingerIndex, FVector Location);
+	UFUNCTION()
+		void TouchMoved(ETouchIndex::Type FingerIndex, FVector Location);
+	UFUNCTION()
+		void TouchStopped(ETouchIndex::Type FingerIndex, FVector Location);
+
 private:
 	FVector MoveInput;
+	FVector TouchLocation;
+	float BaseLookupRate;
+	float BaseTurnRate;
 };
